@@ -13,6 +13,9 @@
     "build/coool-three.js",
     "build/coool-three.min.js",
     "build/coool-three.module.js",
+    "build/mini/coool-three.js",
+    "build/mini/coool-three.min.js",
+    "build/mini/coool-three.module.js",    
     "examples/js",
     "examples/jsm",
     "examples/fonts",
@@ -84,11 +87,13 @@
     "prepublishOnly": "node utils/prepublish.js"
   },
   "keywords": [
+    "coool",
     "three",
     "coool-three",
     "three.js",
     "javascript",
     "3d",
+    "ar",
     "virtual-reality",
     "augmented-reality",
     "webgl",
@@ -132,7 +137,10 @@
       "README.md",
       "build/coool-three.js",
       "build/coool-three.min.js",
-      "build/coool-three.module.js"
+      "build/coool-three.module.js",
+      "build/mini/coool-three.js",
+      "build/mini/coool-three.min.js",
+      "build/mini/coool-three.module.js"      
     ],
     "directories": {}
   }
