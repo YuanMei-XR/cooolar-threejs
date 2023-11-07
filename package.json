@@ -1,6 +1,6 @@
 {
   "name": "coool-threejs",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "JavaScript 3D library",
   "main": "build/coool-three.js",
   "module": "build/coool-three.module.js",
