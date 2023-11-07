@@ -1,18 +1,18 @@
 {
-  "name": "three",
-  "version": "0.135.0",
+  "name": "coool-threejs",
+  "version": "0.0.5",
   "description": "JavaScript 3D library",
-  "main": "build/three.js",
-  "module": "build/three.module.js",
+  "main": "build/coool-three.js",
+  "module": "build/coool-three.module.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mrdoob/three.js"
+    "url": "https://github.com/YuanMei-XR/cooolar-threejs"
   },
   "sideEffects": false,
   "files": [
-    "build/three.js",
-    "build/three.min.js",
-    "build/three.module.js",
+    "build/coool-three.js",
+    "build/coool-three.min.js",
+    "build/coool-three.module.js",
     "examples/js",
     "examples/jsm",
     "examples/fonts",
@@ -65,8 +65,10 @@
   "scripts": {
     "start": "npm run dev",
     "test": "npm run lint && npm run test-unit",
-    "build": "rollup -c utils/build/rollup.config.js",
+    "build": "rollup -c utils/build/rollup.config.js",  
     "build-module": "ONLY_MODULE=true rollup -c utils/build/rollup.config.js",
+    "build-mini": "rollup -c utils/build/rollup.mini.config.js",  
+    "build-mini-module": "ONLY_MODULE=true rollup -c utils/build/rollup.mini.config.js",
     "build-examples": "rollup -c utils/build/rollup.examples.config.js && echo '\nFormatting...' && eslint examples/js --ext js --ignore-pattern libs --ignore-pattern ifc --fix",
     "dev": "concurrently --names \"ROLLUP,HTTP\" -c \"bgBlue.bold,bgGreen.bold\" \"rollup -c utils/build/rollup.config.js -w -m inline\" \"servez -p 8080\"",
     "lint": "eslint src --ext js",
@@ -83,6 +85,7 @@
   },
   "keywords": [
     "three",
+    "coool-three",
     "three.js",
     "javascript",
     "3d",
@@ -100,9 +103,9 @@
   "author": "mrdoob",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mrdoob/three.js/issues"
+    "url": "https://github.com/YuanMei-XR/cooolar-threejs/issues"
   },
-  "homepage": "https://threejs.org/",
+  "homepage": "https://www.cooolar.com/#/index",
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@babel/eslint-parser": "^7.15.7",
@@ -127,9 +130,9 @@
       "package.json",
       "LICENSE",
       "README.md",
-      "build/three.js",
-      "build/three.min.js",
-      "build/three.module.js"
+      "build/coool-three.js",
+      "build/coool-three.min.js",
+      "build/coool-three.module.js"
     ],
     "directories": {}
   }

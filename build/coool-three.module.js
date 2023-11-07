@@ -1,6 +1,6 @@
 /**
  * @license
- * Copyright 2010-2021 Three.js Authors
+ * Copyright 2010-2021 Yuan Mei Authors
  * SPDX-License-Identifier: MIT
  */
 const REVISION = '135';
@@ -25628,7 +25628,7 @@ function WebGLRenderer( parameters = {} ) {
 
 		_currentDrawBuffers[ 0 ] = 1029;
 
-		info = new WebGLInfo( _gl );
+		info = new WebGLInfo();
 		properties = new WebGLProperties();
 		textures = new WebGLTextures( _gl, extensions, state, properties, capabilities, utils, info );
 		cubemaps = new WebGLCubeMaps( _this );
