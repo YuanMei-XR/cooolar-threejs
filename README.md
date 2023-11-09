@@ -24,7 +24,7 @@ The aim of the project is to create an easy to use, lightweight, cross-browser, 
 This code creates a scene, a camera, and a geometric cube, and it adds the cube to the scene. It then creates a `WebGL` renderer for the scene and camera, and it adds that viewport to the `document.body` element. Finally, it animates the cube within the scene for the camera.
 
 ```javascript
-import * as THREE from './js/three.module.js';
+import * as THREE from './js/coool-three.module.js';
 
 let camera, scene, renderer;
 let geometry, material, mesh;
@@ -68,16 +68,16 @@ If everything went well, you should see [this](https://jsfiddle.net/vy29n6aj/).
 Cloning the repo with all its history results in a ~2 GB download. If you don't need the whole history you can use the `depth` parameter to significantly reduce download size.
 
 ```sh
-git clone --depth=1 https://github.com/mrdoob/three.js.git
+git clone --depth=1 https://github.com/YuanMei-XR/cooolar-threejs.git
 ```
 
 ### Change log ###
 
-[Releases](https://github.com/mrdoob/three.js/releases)
+[Releases](https://github.com/YuanMei-XR/cooolar-threejs/releases)
 
 
 [npm]: https://img.shields.io/npm/v/three
-[npm-url]: https://www.npmjs.com/package/three
+[npm-url]: https://www.npmjs.com/package/coool-threejs
 [build-size]: https://badgen.net/bundlephobia/minzip/three
 [build-size-url]: https://bundlephobia.com/result?p=three
 [npm-downloads]: https://img.shields.io/npm/dw/three
